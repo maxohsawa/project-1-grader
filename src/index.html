@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Project Analysis</title>
+  </head>
+  <body>
+    <div>
+      <h1>Project Analysis</h1>
+      <div
+        id="filters"
+        style="display: flex"
+      >
+        <div>
+          <label for="student-select">Select Students</label>
+          <select
+            name=""
+            id="student-select"
+            multiple
+          ></select>
+        </div>
+        <div>
+          <label for="group-select">Select Groups</label>
+          <select
+            name=""
+            id="group-select"
+            multiple
+          ></select>
+        </div>
+        <div>
+          <label for="dataset-select">Select Datasets</label>
+          <select
+            name=""
+            id="dataset-select"
+            multiple
+          ></select>
+        </div>
+        <div>
+          <label for="check-all">See All</label>
+          <input
+            type="checkbox"
+            id="check-all"
+            name="check-all"
+            value="check-all"
+          />
+        </div>
+        <button id="reload-button">reload</button>
+      </div>
+    </div>
+    <script src="./final-data.js"></script>
+    <script src="./visualize.js"></script>
+  </body>
+</html>

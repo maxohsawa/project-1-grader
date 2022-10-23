@@ -1,0 +1,19 @@
+{
+  "name": "project-data-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^6.2.1",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.0.3",
+    "octokit": "^2.0.9"
+  },
+  "type": "module"
+}
